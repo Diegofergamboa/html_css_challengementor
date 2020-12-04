@@ -1,0 +1,61 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+h1 {
+    color: var(--very-dark-desaturated-blue);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+h1 span {
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    padding-bottom: 20px;
+}
+.cuerpo{
+    background: var(--dark-cyan) url(./images/bg-pattern-bottom.svg);
+    padding: 50px 50px 50px 500px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 50px;
+}
+.card {
+    background: white url(./images/bg-pattern-card.svg) repeat-x;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    width: 375px;
+    padding-top: 90px;
+}
+
+h2 {
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.image {
+    border-radius: 50%;
+    overflow: hidden; 
+    border: white;
+}
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1.2px solid var(--dark-grayish-blue);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.social h3 span {
+    display: block;
+    font-size: 12px;
+    color: var(--dark-grayish-blue);
+    margin-top: 8px;
+    font-family: initial;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
